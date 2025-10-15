@@ -1,0 +1,3 @@
+﻿interface ISingleScriptableAsset {
+    void OnLoadedAsSingle();
+}

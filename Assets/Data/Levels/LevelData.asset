@@ -1,0 +1,329 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6dce19547654f2e98ccf786d5f27d85, type: 3}
+  m_Name: LevelData
+  m_EditorClassIdentifier: 
+  BuilderSettings:
+    StartPosY: 6
+  <StartProjectiles>k__BackingField:
+  - Key: 0
+  <InitialPlayerHealth>k__BackingField: 2
+  Obstacles:
+  - rid: 7345508737028194641
+  - rid: 7345508737028194637
+  - rid: 7345508737028194640
+  - rid: 7345508737028194642
+  - rid: 7345508737028194648
+  - rid: 7345508737028194670
+  - rid: 7345508737028194660
+  - rid: 7345508737028194649
+  - rid: 7345508737028194643
+  - rid: 7345508737028194654
+  - rid: 7345508737028194661
+  - rid: 7345508737028194658
+  - rid: 7345508737028194652
+  - rid: 7345508737028194653
+  - rid: 7345508737028194659
+  - rid: 7345508737028194664
+  - rid: 7345508737028194665
+  - rid: 7345508737028194666
+  - rid: 7345508737028194667
+  - rid: 7345508737028194668
+  - rid: 7345508737028194669
+  - rid: 7345508737028194674
+  - rid: 7345508737028194680
+  - rid: 7345508737028194662
+  references:
+    version: 2
+    RefIds:
+    - rid: 7345508737028194637
+      type: {class: VerticalStackBuilder, ns: , asm: Assembly-CSharp}
+      data:
+        StartDelay: 0
+        PostBuildDelay: 1
+        HorizontalIndex: 6
+        StackAsset:
+          Key: 2
+    - rid: 7345508737028194640
+      type: {class: VerticalStackBuilder, ns: , asm: Assembly-CSharp}
+      data:
+        StartDelay: 0
+        PostBuildDelay: 1
+        HorizontalIndex: 2
+        StackAsset:
+          Key: 1
+    - rid: 7345508737028194641
+      type: {class: VerticalStackBuilder, ns: , asm: Assembly-CSharp}
+      data:
+        StartDelay: 0
+        PostBuildDelay: 0
+        HorizontalIndex: 0
+        StackAsset:
+          Key: 0
+    - rid: 7345508737028194642
+      type: {class: StackRotator, ns: , asm: Assembly-CSharp}
+      data:
+        StartDelay: 3
+        PostBuildDelay: 2
+        HorizontalIndex: 3
+        totalAmount: 7
+        radius: 1
+        stackAsset:
+        - Key: 2
+        rotationSpeedDeg: 30
+        fallingSpeedFactor: 1
+    - rid: 7345508737028194643
+      type: {class: Delay, ns: , asm: Assembly-CSharp}
+      data:
+        StartDelay: 0
+        PostBuildDelay: 15
+        HorizontalIndex: 0
+    - rid: 7345508737028194648
+      type: {class: StackRotator, ns: , asm: Assembly-CSharp}
+      data:
+        StartDelay: 5
+        PostBuildDelay: 2.1
+        HorizontalIndex: 1
+        totalAmount: 7
+        radius: 1
+        stackAsset:
+        - Key: 0
+        rotationSpeedDeg: 30
+        fallingSpeedFactor: 1
+    - rid: 7345508737028194649
+      type: {class: StackRotator, ns: , asm: Assembly-CSharp}
+      data:
+        StartDelay: 3
+        PostBuildDelay: 2
+        HorizontalIndex: 7
+        totalAmount: 7
+        radius: 1.5
+        stackAsset:
+        - Key: 0
+        rotationSpeedDeg: 30
+        fallingSpeedFactor: 1
+    - rid: 7345508737028194652
+      type: {class: PushNotification, ns: , asm: Assembly-CSharp}
+      data:
+        StartDelay: 0
+        PostBuildDelay: 3
+        HorizontalIndex: 0
+        notificationText: Gold Rush!
+    - rid: 7345508737028194653
+      type: {class: CoinGridBuilder, ns: , asm: Assembly-CSharp}
+      data:
+        StartDelay: 0
+        PostBuildDelay: 12
+        HorizontalIndex: 0
+        rowCount: 10
+        rowSpacing: 0.7
+        columnCount: 5
+        startXOffset: 0.3
+        columnSpacing: 0.4
+        coinFallSpeedModifier: 4
+    - rid: 7345508737028194654
+      type: {class: Upgrade, ns: , asm: Assembly-CSharp}
+      data:
+        StartDelay: 0
+        PostBuildDelay: 0
+        HorizontalIndex: 0
+        upgrades:
+        - rid: 7345508737028194655
+        - rid: 7345508737028194656
+        - rid: 7345508737028194657
+    - rid: 7345508737028194655
+      type: {class: UnlockProjectile, ns: , asm: Assembly-CSharp}
+      data:
+        projectile: {fileID: 11400000, guid: bd2f0597ae201c44fa0827c84553bba0, type: 2}
+    - rid: 7345508737028194656
+      type: {class: AddHealthUpgrade, ns: , asm: Assembly-CSharp}
+      data:
+        healthIncrease: 2
+    - rid: 7345508737028194657
+      type: {class: CooldownUpgrade, ns: , asm: Assembly-CSharp}
+      data:
+        projectile: {fileID: 11400000, guid: d04456de3116a0d41b03052d45c9dd11, type: 2}
+        cooldownReduction: 0.05
+    - rid: 7345508737028194658
+      type: {class: SetProjectileState, ns: , asm: Assembly-CSharp}
+      data:
+        StartDelay: 0
+        PostBuildDelay: 0
+        HorizontalIndex: 0
+        state: 0
+    - rid: 7345508737028194659
+      type: {class: SetProjectileState, ns: , asm: Assembly-CSharp}
+      data:
+        StartDelay: 0
+        PostBuildDelay: 0
+        HorizontalIndex: 0
+        state: 1
+    - rid: 7345508737028194660
+      type: {class: DynamiteBuilder, ns: , asm: Assembly-CSharp}
+      data:
+        StartDelay: 0
+        PostBuildDelay: 1
+        HorizontalIndex: 3
+        explosiveData:
+          radius: 0
+          damage: 0
+          triggerOtherExplosives: 0
+    - rid: 7345508737028194661
+      type: {class: GridBuilder, ns: , asm: Assembly-CSharp}
+      data:
+        StartDelay: 0
+        PostBuildDelay: 32
+        HorizontalIndex: 0
+        rowCount: 4
+        rowSpacing: 2
+        columnCount: 6
+        startXOffset: 0.2
+        columnSpacing: 0.5
+        AvailableStacks:
+        - Key: 0
+        - Key: 1
+        - Key: 3
+    - rid: 7345508737028194662
+      type: {class: BossBuilder, ns: , asm: Assembly-CSharp}
+      data:
+        StartDelay: 0
+        PostBuildDelay: 5
+        HorizontalIndex: 5
+        verticalDestination: 2.5
+        moveDuration: 5
+    - rid: 7345508737028194664
+      type: {class: PushNotification, ns: , asm: Assembly-CSharp}
+      data:
+        StartDelay: 0
+        PostBuildDelay: 3
+        HorizontalIndex: 0
+        notificationText: BE READY!
+    - rid: 7345508737028194665
+      type: {class: StackRotator, ns: , asm: Assembly-CSharp}
+      data:
+        StartDelay: 0
+        PostBuildDelay: 5
+        HorizontalIndex: 5
+        totalAmount: 5
+        radius: 4
+        stackAsset:
+        - Key: 1
+        rotationSpeedDeg: 30
+        fallingSpeedFactor: 1
+    - rid: 7345508737028194666
+      type: {class: StackRotator, ns: , asm: Assembly-CSharp}
+      data:
+        StartDelay: 0
+        PostBuildDelay: 4
+        HorizontalIndex: 8
+        totalAmount: 11
+        radius: 5
+        stackAsset:
+        - Key: 1
+        rotationSpeedDeg: 30
+        fallingSpeedFactor: 1
+    - rid: 7345508737028194667
+      type: {class: StackRotator, ns: , asm: Assembly-CSharp}
+      data:
+        StartDelay: 0
+        PostBuildDelay: 3
+        HorizontalIndex: 2
+        totalAmount: 5
+        radius: 2
+        stackAsset:
+        - Key: 1
+        - Key: 3
+        rotationSpeedDeg: 30
+        fallingSpeedFactor: 2
+    - rid: 7345508737028194668
+      type: {class: StackRotator, ns: , asm: Assembly-CSharp}
+      data:
+        StartDelay: 0
+        PostBuildDelay: 7
+        HorizontalIndex: 6
+        totalAmount: 5
+        radius: 2
+        stackAsset:
+        - Key: 1
+        rotationSpeedDeg: 30
+        fallingSpeedFactor: 0.5
+    - rid: 7345508737028194669
+      type: {class: StackRotator, ns: , asm: Assembly-CSharp}
+      data:
+        StartDelay: 0
+        PostBuildDelay: 0
+        HorizontalIndex: 5
+        totalAmount: 5
+        radius: 4
+        stackAsset:
+        - Key: 2
+        rotationSpeedDeg: 30
+        fallingSpeedFactor: 1
+    - rid: 7345508737028194670
+      type: {class: Upgrade, ns: , asm: Assembly-CSharp}
+      data:
+        StartDelay: 0
+        PostBuildDelay: 0
+        HorizontalIndex: 0
+        upgrades:
+        - rid: 7345508737028194671
+        - rid: 7345508737028194672
+        - rid: 7345508737028194673
+    - rid: 7345508737028194671
+      type: {class: AddHealthUpgrade, ns: , asm: Assembly-CSharp}
+      data:
+        healthIncrease: 1
+    - rid: 7345508737028194672
+      type: {class: CooldownUpgrade, ns: , asm: Assembly-CSharp}
+      data:
+        projectile: {fileID: 11400000, guid: d04456de3116a0d41b03052d45c9dd11, type: 2}
+        cooldownReduction: 0.1
+    - rid: 7345508737028194673
+      type: {class: UnlockProjectile, ns: , asm: Assembly-CSharp}
+      data:
+        projectile: {fileID: 11400000, guid: bd2f0597ae201c44fa0827c84553bba0, type: 2}
+    - rid: 7345508737028194674
+      type: {class: Upgrade, ns: , asm: Assembly-CSharp}
+      data:
+        StartDelay: 0
+        PostBuildDelay: 0
+        HorizontalIndex: 0
+        upgrades:
+        - rid: 7345508737028194675
+        - rid: 7345508737028194676
+        - rid: 7345508737028194677
+    - rid: 7345508737028194675
+      type: {class: CooldownUpgrade, ns: , asm: Assembly-CSharp}
+      data:
+        projectile: {fileID: 11400000, guid: d04456de3116a0d41b03052d45c9dd11, type: 2}
+        cooldownReduction: 0.1
+    - rid: 7345508737028194676
+      type: {class: CooldownUpgrade, ns: , asm: Assembly-CSharp}
+      data:
+        projectile: {fileID: 11400000, guid: bd2f0597ae201c44fa0827c84553bba0, type: 2}
+        cooldownReduction: 0.1
+    - rid: 7345508737028194677
+      type: {class: AddHealthUpgrade, ns: , asm: Assembly-CSharp}
+      data:
+        healthIncrease: 2
+    - rid: 7345508737028194680
+      type: {class: StackRotator, ns: , asm: Assembly-CSharp}
+      data:
+        StartDelay: 5
+        PostBuildDelay: 2.1
+        HorizontalIndex: 1
+        totalAmount: 7
+        radius: 1
+        stackAsset:
+        - Key: 0
+        rotationSpeedDeg: 30
+        fallingSpeedFactor: 1

@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags:
+  - Obstacle
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Projectile
+  - Water
+  - UI
+  - Obstacle
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Cell0
+    uniqueID: 3878271099
+    locked: 0
+  - name: Cell1
+    uniqueID: 756638095
+    locked: 0
+  - name: Cell2
+    uniqueID: 367992881
+    locked: 0
+  - name: Cell3
+    uniqueID: 3604331637
+    locked: 0
+  - name: Cell4
+    uniqueID: 2527056691
+    locked: 0
+  - name: Cell5
+    uniqueID: 3104254569
+    locked: 0
+  - name: Cell6
+    uniqueID: 3877794767
+    locked: 0
+  - name: Cell7
+    uniqueID: 3423294775
+    locked: 0
+  - name: Cell8
+    uniqueID: 1071942057
+    locked: 0
+  - name: Cell9
+    uniqueID: 1307634951
+    locked: 0
+  - name: Cell10
+    uniqueID: 574300283
+    locked: 0
+  - name: Cell11
+    uniqueID: 1644018757
+    locked: 0
+  - name: Cell12
+    uniqueID: 3207752689
+    locked: 0
+  - name: Cell13
+    uniqueID: 3996195563
+    locked: 0
+  - name: Cell14
+    uniqueID: 1375060397
+    locked: 0
+  - name: Cell15
+    uniqueID: 3429640391
+    locked: 0
+  - name: Cell16
+    uniqueID: 809619931
+    locked: 0
+  - name: Cell17
+    uniqueID: 4213220325
+    locked: 0
+  - name: Cell18
+    uniqueID: 2504277567
+    locked: 0
+  - name: Cell19
+    uniqueID: 3300191349
+    locked: 0
+  - name: Cell20
+    uniqueID: 1439065673
+    locked: 0
+  - name: Over
+    uniqueID: 2827287517
+    locked: 0
+  m_RenderingLayers:
+  - Default

@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_GUID: 7eef6d22dad942a438b9143494d2562c
+  m_SerializeEntries:
+  - m_GUID: 6f95e4282c068be40a6d3c4d12ee1a46
+    m_Address: LevelDataMapper
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GeneratedMapper_LevelData
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 75073e0820991134b982758033de2232
+    m_Address: VFXPairMapper
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GeneratedMapper_VFXPair
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a7f929342a7bc2c48871c4651f5b2235
+    m_Address: StackAssetMapper
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GeneratedMapper_StackAsset
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b5fe236d6b65ffc4fa10e35faae10b39
+    m_Address: ProjectileAssetMapper
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GeneratedMapper_ProjectileAsset
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f542fdd4fdc6db54e950b654d2b065e5
+    m_Address: SFXMapper
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GeneratedMapper_SFX
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fb8883a44cfe2034598841379407b133
+    m_Address: Assets/Data/Default Game Config.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - SingleAsset
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 5329303e821dc834c9d236d2fce7b593, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: e14df9c6a7d6afc4abe4b89262d2ba88, type: 2}
+    - {fileID: 11400000, guid: 21960031f54853149a0df69b227fcae1, type: 2}

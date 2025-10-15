@@ -1,0 +1,21 @@
+📄 Notlar
+
+Merhabalar,
+
+Case çalışmasını tamamladım; ancak case’in denk geldiği tarih itibarıyla bir miktar zaman kısıtlaması yaşadım.
+Bu nedenle polish ve level tasarımı kısımlarında bazı eksiklikler bulunuyor.
+
+Ayrıca 13 Ekim itibarıyla Steam Next Fest başladı ve ben de boş zamanlarımda geliştirdiğim kendi oyunumla bu festivale katıldım.
+(Oyunumun Steam sayfası: https://store.steampowered.com/app/3647140/Food_Cart_Simulator/
+)
+
+Demoda hâlen bazı eksiklikler bulunduğu için bu süreçte zaman yönetimi açısından bazı zorluklar yaşadım.
+Bu nedenle değerlendirme sürecinizde süre kısıtını da göz önünde bulundurabilirseniz çok memnun olurum.
+
+Case kapsamında çekirdek sistemleri ve örnek uygulamaları tamamladım; ancak belirttiğim gibi polish ve level bölümlerinde kısmi eksiklikler mevcut.
+Değerlendirmenizi bu durumu dikkate alarak yaparsanız çok sevinirim.
+
+Teşekkür ederim,
+Saygılarımla.
+
+Editor'de kayıt edilmiş oynanış görüntüsü : https://youtu.be/A42HWrHUb0s
