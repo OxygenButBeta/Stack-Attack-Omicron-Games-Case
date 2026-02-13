@@ -1,5 +1,5 @@
-﻿using System.Runtime.CompilerServices;
-using UnityEngine;
+﻿using UnityEngine;
+using System.Runtime.CompilerServices;
 
 public static class ViewportUtility {
     public static Vector3 GetGridCenterWorldPos2D(

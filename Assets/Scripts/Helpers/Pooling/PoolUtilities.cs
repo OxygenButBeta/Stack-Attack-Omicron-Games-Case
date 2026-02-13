@@ -1,7 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using UnityEngine;
 using UnityEngine.Pool;
+using System.Collections.Generic;
 
 public static class PoolUtilities {
     public delegate TMono CreateFromAssetFunc<in TAsset, out TMono>(TAsset asset)
